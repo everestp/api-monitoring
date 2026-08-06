@@ -76,9 +76,9 @@ app.get("/", (req, res) => {
                 version: '1.0.0',
                 endpoints: {
                     health: '/health',
-                    auth: '/api/auth',
-                    ingest: '/api/hit',
-                    analytics: '/api/analytics',
+                    auth: '/api/v1//auth',
+                    ingest: '/api/v1/hit',
+                    analytics: '/api/v1/analytics',
                 },
             },
             'API Hit Monitoring Service'
