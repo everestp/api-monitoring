@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import bcrypt from "bcryptjs"
-import SecurityUtils from "../utils/SecurityUtils.js";
+import SecurityUtils from "../utils/security.utils.js";
 
 /**
  * User Schema - Represents a user in the system with authentication and role-based access control.
